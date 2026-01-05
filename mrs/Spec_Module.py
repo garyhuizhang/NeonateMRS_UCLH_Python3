@@ -8,6 +8,7 @@ Version 1.5.3
 Modified 05/01/2026 (GZ)
 
 - Replaced the deprecated read_line function from PyDICOM with dcmread
+- Fixed the import for read_dicom_siemens
 
 Version 1.5.2
 Modified 26/05/2025
@@ -83,9 +84,8 @@ import sys
 import struct
 try:
     import read_dicom_siemens as rds
-except ImportError:
-    rds = None
-    print("Warning: read_dicom_siemens module not available. Siemens data support will be limited.")
+except:
+    from mrs import read_dicom_siemens as rds
 
 #BASE_DIR = Path(__file__).parent.parent.parent
 # BASE_DIR = Path(__file__).parent.parent
