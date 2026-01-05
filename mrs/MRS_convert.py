@@ -2,6 +2,11 @@
 """
 MRS_Convert.py
 
+Version 1.5.3
+Modified 06/01/2026
+
+- Fixed the import command for Spec_Module
+
 Version 1.5.2
 Modified 26/05/2025
 
@@ -65,7 +70,7 @@ import os
 import numpy as np
 from PyQt5 import QtGui, QtCore, QtWidgets
 import pyqtgraph as pg
-import Spec_Module as sp
+from . import Spec_Module as sp
 import csv
 from pathlib import Path
 
