@@ -120,7 +120,7 @@ class SpecObject():
         # print(filename)
         
         try:
-            self.ds = dcm.read_file(self.filename)
+            self.ds = dcm.dcmread(self.filename)
         except Exception as e:
             self.ds = None
             SpecObject.NumSpecObjects -= 1
