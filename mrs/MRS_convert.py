@@ -70,7 +70,10 @@ import os
 import numpy as np
 from PyQt5 import QtGui, QtCore, QtWidgets
 import pyqtgraph as pg
-from . import Spec_Module as sp
+try:
+    import Spec_Module as sp
+except:
+    from mrs import Spec_Module as sp    
 import csv
 from pathlib import Path
 
