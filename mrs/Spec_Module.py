@@ -4,6 +4,11 @@
 
 Spec_Module
 
+Version 1.5.3
+Modified 05/01/2026 (GZ)
+
+- Replaced the deprecated read_line function from PyDICOM with dcmread
+
 Version 1.5.2
 Modified 26/05/2025
 
