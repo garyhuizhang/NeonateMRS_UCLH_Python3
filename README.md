@@ -20,13 +20,15 @@ This software is meant to be used by MRI Clinical Scientists. Its purpose is to 
 
 # Installation
 #### 1) Pre-requisites:
-Before installing NeonateMRS_UCLH_Python3 package you will need [Python 3](https://www.python.org), [TARQUIN](http://tarquin.sourceforge.net/index.php) and [Git](https://git-scm.com/).  
+Before installing NeonateMRS_UCLH_Python3 package you will need [Python 3](https://www.python.org), [TARQUIN](http://tarquin.sourceforge.net/index.php), [gnuplot](http://www.gnuplot.info), and [Git](https://git-scm.com/).  
 * To check if you have the required versions of Python and TARQUIN installed, in a terminal run:    
 `python3 -V`  (Python version should be <t>&ge;</t> 3.7)  
-`tarquin` (TARQUIN version should be <t>&ge;</t> 4.3.10)
-* If you need to install Python 3, TARQUIN or Git follow the links below:   
+`tarquin` (TARQUIN version should be <t>&ge;</t> 4.3.10)  
+`gnuplot --version` (Required by tarquin for outputing pdf; tested on version 4.6 but any modern version expected to work)
+* If you need to install Python 3, TARQUIN, gnuplot, or Git follow the links below:   
    - Download Python 3 from [here](https://www.python.org/downloads/) and follow the installation instructions.    
-   - Download the latest binaries of TARQUIN from [here](https://sourceforge.net/projects/tarquin/files/) and add it to your PATH.   
+   - Download the latest binary release of TARQUIN from [here](https://sourceforge.net/projects/tarquin/files/) and add it to your PATH.
+   - Download the latest binary release of gnuplot from [here](http://www.gnuplot.info) and add it to your PATH.
    - Intall the latest version of Git from [here](https://git-scm.com/downloads).
     
 
