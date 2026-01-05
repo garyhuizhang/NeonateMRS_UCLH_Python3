@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='mrs',
-    version='1.5.2',
+    version='1.5.3',
     description='Software to process and produce PDF reports from NMR spectra acquired at 1.5T and 3T MRI scanners. Supports Philips and Siemens DICOM formats with enhanced spectroscopy processing capabilities.',
     long_description="""
 # Neonate MRS UCLH (Python3)
@@ -36,6 +36,11 @@ Advanced software for processing and generating automated reports of neonatal NM
 - **Diagnostic Tools**: Comprehensive diagnostic scripts for troubleshooting
 
 ## Recent Updates
+
+### Version 1.5.3 (06/01/2026)
+
+- Replaced the deprecated read_line function from PyDICOM with dcmread
+- Fixed the import command for Spec_Module
 
 ### Version 1.5.2 (26/05/2025) - Siemens Support & Enhanced Compatibility
 - Added support for Siemens SPEC NUM 4 format (beta)
