@@ -25,11 +25,11 @@ Before installing NeonateMRS_UCLH_Python3 package you will need [Python 3](https
 `python3 -V`  (Python version should be <t>&ge;</t> 3.7)  
 `tarquin` (TARQUIN version should be <t>&ge;</t> 4.3.10)  
 `gnuplot --version` (Required by tarquin for outputing pdf; tested on version 4.6 but any modern version expected to work)
-* If you need to install Python 3, TARQUIN, gnuplot, or Git follow the links below:   
+* If you need to install Python 3, TARQUIN, gnuplot, or Git, different options exist depending on your operating system. One may follow the links below:   
    - Download Python 3 from [here](https://www.python.org/downloads/) and follow the installation instructions.    
    - Download the latest binary release of TARQUIN from [here](https://sourceforge.net/projects/tarquin/files/) and add it to your PATH.
    - Download the latest binary release of gnuplot from [here](http://www.gnuplot.info) and add it to your PATH.
-   - Intall the latest version of Git from [here](https://git-scm.com/downloads).
+   - Install the latest version of Git from [here](https://git-scm.com/downloads).
     
 
 #### 2) Installing NeonateMRS_UCLH_Python3 package:
@@ -51,7 +51,7 @@ Before installing NeonateMRS_UCLH_Python3 package you will need [Python 3](https
   `python -m pip install --upgrade pip setuptools`   
   
 * Install NeonateMRS_UCLH_Python3 module and requirements:     
-  `python -m pip install git+https://github.com/papomail/NeonateMRS_UCLH_Python3.git  `   
+  `python -m pip install git+https://github.com/garyhuizhang/NeonateMRS_UCLH_Python3.git  `   
 
 * NeonateMRS_UCLH_Python3 is now installed! To run it, just type:   
   `mrs` 
